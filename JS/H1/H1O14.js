@@ -1,5 +1,6 @@
 var xJOS = 225;
 var yJOS = 375;
+var snelheidJOS = 17;
 
 function setup() {
   canvas = createCanvas(450,450);
