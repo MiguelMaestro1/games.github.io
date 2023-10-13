@@ -14,8 +14,6 @@ function draw() {
   background('lavender');
   text("x = " + round(xJOS),10,20);
   tekenJos(xJOS,yJOS);
-  tekenJos(xJOS,yJOS + 50);
-  tekenJos(xJOS,yJOS + 100)
 }
 
 function tekenJos(x,y) {
