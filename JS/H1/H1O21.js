@@ -20,9 +20,21 @@ function draw() {
   stroke('white');
   strokeWeight(10);
 
-  if (mouseIsPressed == true && snelheid == 5) {
-      fill('green');
-  }
+
+  if (snelheid == 5) {
+    fill('green');
+}
+
+if (mouseIsPressed == false) {
+   diameter = 200
+   fill('dodgerblue')
+}
+
+if (mouseIsPressed == true) {
+  fill('red');
+  diameter = 100
+
+}
   else {
     fill('dodgerblue');
   }

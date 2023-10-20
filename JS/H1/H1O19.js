@@ -22,7 +22,8 @@ function tekenRechthoek(p) {
   push();
   strokeWeight(1);
   stroke('green');
-
+  line(0,width,height,height - p);
+  line(0,height - p,width,height - p);
   pop();
 }
 
@@ -30,7 +31,8 @@ function tekenVierkant(p) {
   push();
   strokeWeight(1);
   stroke('red');
-
+  line(p,0,width,p);
+  line(width - p,height,width,height - p);
   pop();
 }
 
